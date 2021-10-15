@@ -1,0 +1,200 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FFD970;
+    font-family: 'Advent Pro';
+}
+button{
+    cursor: pointer;
+}
+.header{
+    background-color: #f3f3f3;
+    margin-bottom: 60px;
+}
+.header .container{
+    position: relative;
+    padding: 15px 0;
+}
+.title{
+    font-size: 55px;
+    text-align: center;
+}
+#signout{
+    position: absolute;
+    top: 30px;
+    right: 0;
+    border: none;
+    padding: 12px 36px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    border-radius: 40px;
+    background: linear-gradient(90deg,#755bea,#ff72c0);
+}
+#signout:hover{
+    background: linear-gradient(-90deg,#755bea,#ff72c0);  
+}
+.container{
+    width: 1290px;
+    margin: 0 auto;
+    padding: 0 15px;
+} 
+.users{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: 700;
+    background-color: #000;
+    color: gold;
+}
+#list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box{
+    background-color: #fff;
+    border-radius: 1rem;
+    width: 400px;
+    box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.box:nth-child(3n){
+    margin-right: 0;
+}
+.img{
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+    margin-bottom: 20px;
+}
+.name{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.surname{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.email{
+    font-size: 25px;
+    color: #000;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.email:hover{
+    text-decoration: none;
+}
+#first{
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #8052ec;
+    border: none;
+    border-radius: 5px;
+}
+#second{
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #8052ec;
+    border: none;
+    border-radius: 5px;
+}
+.disabled{
+    opacity: 0.5;
+}
+
+
+
+/* Login Page */
+
+.body{
+    background: #4DB8E8;
+    font-family: "Arial";
+}
+
+.big-box{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    padding: 0 20px;
+}
+#form{
+    max-width: 570px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5)
+}
+.form-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 44px;
+    color: #c5ecfd;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.form-title::after{
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background: red;
+    border-radius:50%;
+    margin-left: 10px;
+}
+.intro-box{
+    display: flex;
+}
+.mini-box{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+}
+.mini-box,
+.message{
+    width: 48%;
+}
+input,
+.message textarea{
+    margin: 10px 0;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid #c5ecfd;
+    padding: 10px;
+    color: #c5ecfd;
+    width: 100%;
+    font-size: 22px;
+}
+.message textarea{
+    height: 185px;
+}
+#btn{
+    background: #39b7dd;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    border:none;
+    font-size: 18px;
+}
