@@ -52,6 +52,7 @@ second.addEventListener('click', ()=>{
     if(pageCount > 1){
         first.classList.remove('disabled')
         first.disabled = false
+        second.disabled = true
         second.classList.add('disabled')
     }
     // first.disabled = false
