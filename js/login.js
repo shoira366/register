@@ -22,11 +22,11 @@ elForm.addEventListener('submit', (e)=>{
             password: passwordValue
             
         })
-    })
-    const data = await res.json()
-   if(data){
-    window.localStorage.setItem('_took_login_', JSON.stringify(data))
-    window.location.replace('index.html')
+     })
+      const data = await res.json()
+      if(data){
+      window.localStorage.setItem('_took_login_', JSON.stringify(data))
+      window.location.replace('index.html')
    }
     // console.log(data)
 }
